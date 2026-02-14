@@ -1,23 +1,44 @@
-# TryHackMe Labs
+# Cybersecurity Portfolio – TryHackMe Labs
 
-## Completed Labs
+This repository documents my hands-on cybersecurity training focused on SOC operations, blue team defense, and system monitoring.
 
-- [CAPA Basics](CAPA_Basics_.md)
-- [CyberChef Basics](CyberChef_Basics_.md)
-- [REMnux Getting Started](REMnux_Getting_Started_.md)
-- [FLARE VM / Arsenal of Tools](FLARE_VM_Arsenal_of_Tools_.md)
-- [Training Impact on Teams](Training_Impact_on_Teams_.md)
-- [TryHackMe Career Ready Badge](TryHackMe_Career_Ready_Badge_.md)
-- [Cyber Security 101 Certificate](Cyber_Security_101_Certificate_.md)
-## 🛡 TryHackMe Badges & Achievements
+---
 
-### SOC Apprentice
-🔗 https://tryhackme.com/UcNino/badges/soc-apprentice
+## 📂 Repository Structure
 
-This badge demonstrates hands-on training in:
+### 🔵 SOC (Security Operations Center)
+Contains documentation of:
+- Alert Triage
+- SOC Metrics & Objectives
+- Workbooks & Lookups
+- SOC Simulation
+- Introduction to SOAR
+- Unified Kill Chain
 
-- SOC operations fundamentals
-- Alert triage and investigation
-- Log analysis
-- Incident response workflow
-- Security monitoring concepts
+Focus: Incident response, threat detection, attack lifecycle analysis.
+
+---
+
+### 🟢 Linux
+Contains documentation of:
+- Process monitoring
+- System resource analysis
+
+Focus: System monitoring and operational security skills.
+
+---
+
+### 🛠 Additional Labs
+Includes malware analysis tools, forensic labs, and cybersecurity fundamentals.
+
+---
+
+## 🏅 Certifications & Badges
+- SOC Apprentice
+- First Step Into SOC
+- Career Ready Badge
+
+---
+
+## 🎯 Career Goal
+Aspiring SOC Analyst (Level 1) developing strong blue team investigation, incident response, and security monitoring skills.
