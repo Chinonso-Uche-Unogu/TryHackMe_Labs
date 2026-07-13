@@ -2,69 +2,85 @@
 
 
 
+!\[Cisco Network Topology](Cisco\_Network\_Topology.png)
+
+
+
+!\[Cisco Router Status](Cisco\_Router\_Status.png)
+
+
+
 \## Overview
 
-Configured a Cisco 1941 router using Cisco Packet Tracer to establish network connectivity between two separate LAN interfaces.
+
+
+This project demonstrates the configuration and testing of a Cisco 1941 router using Cisco Packet Tracer. The objective was to establish communication between two separate LAN segments through router interface configuration and verify successful network connectivity.
 
 
 
-\## Device
-
-\- Cisco 1941 Router
-
-\- Cisco IOS 15.1
+\## Devices Used
 
 
 
-\## Configuration
+\* Cisco 1941 Router
+
+\* Cisco IOS 15.1
+
+\* Cisco Switches
+
+\* End Devices (PCs)
+
+
+
+\## Network Configuration
 
 
 
 \### Interface G0/0
 
-IP Address:
+
+
+\*\*IP Address:\*\*
 
 192.168.1.1
 
 
 
-Subnet Mask:
+\*\*Subnet Mask:\*\*
 
 255.255.255.0
 
 
 
-Status:
+\*\*Status:\*\*
 
 UP
-
-
 
 
 
 \### Interface G0/1
 
-IP Address:
+
+
+\*\*IP Address:\*\*
 
 192.168.2.1
 
 
 
-Subnet Mask:
+\*\*Subnet Mask:\*\*
 
 255.255.255.0
 
 
 
-Status:
+\*\*Status:\*\*
 
 UP
 
 
 
-
-
-\## Verification
+\## Configuration and Verification
 
 
 
@@ -72,13 +88,45 @@ Commands used:
 
 
 
+```bash
+
 show ip interface brief
 
+```
 
+
+
+```bash
 
 copy running-config startup-config
 
+```
 
+
+
+These commands were used to verify interface status and save the router configuration.
+
+
+
+\## Connectivity Testing
+
+
+
+After configuring the router and connected devices, network communication was tested successfully.
+
+
+
+Tests completed:
+
+
+
+\* PC-to-PC communication
+
+\* PC-to-router gateway communication
+
+\* Verification of active network interfaces
+
+\* Successful packet transmission using Cisco Packet Tracer simulation
 
 
 
@@ -86,15 +134,19 @@ copy running-config startup-config
 
 
 
-\- Cisco IOS configuration
+\* Cisco IOS configuration
 
-\- IPv4 addressing
+\* IPv4 addressing
 
-\- Interface configuration
+\* Router interface configuration
 
-\- Network troubleshooting
+\* LAN connectivity
 
-\- Router management
+\* Network troubleshooting
 
-\- LAN connectivity
+\* Basic routing concepts
+
+\* Network administration fundamentals for cybersecurity environments
+
+
 
